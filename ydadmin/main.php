@@ -21,22 +21,22 @@ table td,div,p,span,h1,h2,h3,li,ul{ color:#337abb;}
 		<td height="25">欢迎进入<strong><font color="#FF0000"><?php echo $_SESSION["adminname"];?></font></strong>进入蓝领技工后台管理系统！</td>
 	</tr>
 	<tr class="outrow2">
-	  <td height="23">本系统由<strong>成都元鼎信息技术有限公司</strong>授权给 <strong><font color="#FF0000"><?php echo $site->GetSiteResource();?></font></strong> 使用。</td>
+	  <td height="23"><strong><font color="#FF0000"><?php echo $site->GetSiteResource();?></font></strong> 使用。</td>
 	</tr>
 	<tr class="outrow2">
 		<td>⊙ 软件版本：<strong>YDCMS<font> <?php echo $site->GetSiteVer();?></font></strong></td>
 	</tr>
 	<tr class="outrow2">
-	  <td>⊙ 开发公司：成都元鼎信息技术有限公司</td>
+	  <td>⊙</td>
   </tr> 
 	<tr class="outrow2">
-	  <td>⊙ 开发团队：成都元鼎信息技术有限公司 技术中心</td>
+	  <td>⊙</td>
   </tr>
 	<tr class="outrow2">
-	  <td>⊙ 在线反馈QQ：<strong>42768813</strong></td>
+	  <td>⊙ </strong></td>
   </tr>
 	<tr class="outrow2">
-	  <td>更多相关信息，请登录<strong>http://www.cdydinfo.com</strong>官方网站了解详情。</td>
+	  <td> </td>
   </tr>
 </table>
 <div style="height:20px;"></div>
@@ -61,6 +61,6 @@ table td,div,p,span,h1,h2,h3,li,ul{ color:#337abb;}
 		<td>⊙ <?php echo "服务器语言：".$_SERVER['HTTP_ACCEPT_LANGUAGE'];?></td>
 	</tr>	
 </table>
-<div align="center" style="line-height:50px; height:50px; color:#999999;">版权所有：成都元鼎信息技术有限公司 . All Rights Reserved. 未经授权使用公司将依法追究法律责任.</div>
+<div align="center" style="line-height:50px; height:50px; color:#999999;"></div>
 </body>
 </html>

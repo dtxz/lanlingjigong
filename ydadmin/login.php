@@ -41,4 +41,4 @@ if ($_POST["logintype"]=="loginsystem"){
                   </form>
 </body>
 </html>
-<!--版权所有：成都元鼎信息技术有限公司 . All Rights Reserved. 未经授权使用公司将依法追究法律责任.-->
+
