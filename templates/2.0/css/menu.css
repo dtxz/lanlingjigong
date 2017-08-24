@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+/******************************************************************/
+#jsddm
+{	margin:0 auto;
+	background-image:url(../images/index/menubg.png);
+	height:49px;
+}
+
+#jsddm li
+{	
+	float: left;
+	list-style: none; text-align:center;
+	font: 12px Tahoma, Arial;
+	width: 122px;
+	height:49px; line-height:49px;
+}
+
+#jsddm li a
+{	display: block;
+	text-decoration: none;
+	border-right: 0px solid white;
+	width: 122px;
+	color: #ddc579;
+	text-align:center;
+	white-space: nowrap;
+	height:49px; line-height:49px;
+	font-size:16px;
+	/*font-weight:bold;*/
+	font-family:"微软雅黑";
+ 
+	}
+#jsddm li a:hover{width: 122px; color:#fff; text-decoration:none;}
+#jsddm li:hover{background-color:#ac0807; }
+#jsddm li.selmenu{ background-color:#ac0807; }
+#jsddm li.selmenu a{color:#fff;}
+
+#jsddm li ul
+{
+clear:both;
+margin: 0px;
+padding: 0px;
+position: absolute;
+visibility: hidden;
+padding:0px; padding-top:0px; 
+z-index:99999;
+border:1px solid #840302;
+border-top:0px;
+width:122px;
+background-color:#ac0807;
+padding-left:10px; 
+padding-right:10px;
+padding-bottom:10px;
+}
+
+#jsddm li ul li
+{
+clear:both;
+margin: 0px;
+padding: 0px;
+float:left;
+width:100px;
+height:36px;
+line-height:36px;
+padding-left:0px;
+border-bottom:1px solid #660600;
+
+}
+
+#jsddm li ul li a
+{
+	font-family:"微软雅黑";
+	color: #fff;
+	height:36px;
+	line-height:36px;
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+
+}
+ 
+#jsddm li ul li a:hover
+{	
+ 
+font-size:12px; 
+color:#fff;
+font-weight:normal;
+height:36px;
+line-height:36px;
+color:#FFEA01;
+
+}
+ 
+ /************************************************/
+.menu{width:100%;height:55px; background-image:url(../images/index/menubg.jpg); background-repeat:no-repeat; }
+.menu .nav{width:100%;height:55px;margin:0 auto; padding-left:10px; padding-right:10px;}
+.menu .nav li{float:left;list-style:none; width:95px; text-align:center;}
+.menu .nav li a{display:block;height:55px;/*border-left:1px solid #000;*/padding:0 10px;line-height:55px;color:#ffffff;text-decoration:none;position:relative;overflow:hidden;	font-size:16px;font-family:"微软雅黑";}
+.menu .nav li a:hover,.menu .nav li a.current{color:#fff;background:#026ac1; background:url(../images/index/menuselbg.jpg) top center; background-repeat:no-repeat;}
+.menu .nav li .box{ display:block;position: absolute;
+top:274px;text-align:center; padding-left:10px; padding-right:15px; background-color:#c66620;display:none; z-index:999999;
+border-radius:6px; border-top-right-radius:0px; border-top-left-radius:0px; padding-bottom:5px;
+}
+.menu .nav li .box a{display:block;color:#fff;height:30px;line-height:30px;border:none;background:none; text-align:left; font-size:14px;font-family:"微软雅黑";}
+.menu .nav li .box a:hover{text-decoration:underline;color:#FF9900; text-decoration:none;}

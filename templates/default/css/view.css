@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+/*
+版权所有 (C) 成元鼎信息技术有限公司
+设计人：wolfelove
+Css功能：list布局文件
+*/
+ .infocontent{line-height:180%; padding-top:25px; padding-left:5px; padding-right:5px;padding-bottom:25px; color:#666;font-size:14px;FONT-FAMILY: "微软雅黑",Arial, Helvetica, sans-serif;}
+.infocontent p,.infocontent td,.infocontent div,.infocontent a {color:#666; font-size:14px;FONT-FAMILY: "微软雅黑",Arial, Helvetica, sans-serif;}
+
+.infocontent2{line-height:180%; padding-top:15px; padding-left:35px; padding-right:5px;padding-bottom:25px; color:#666;font-size:12pxFONT-FAMILY: "微软雅黑",Arial, Helvetica, sans-serif;;}
+.infocontent2 p,.infocontent2 td,.infocontent2 div,.infocontent2 a {color:#666;font-size:12px;}
+.newscontent{ line-height:180%;FONT-FAMILY: "微软雅黑",Arial, Helvetica, sans-serif;}
+.newscontent p,.newscontent td,.newscontent div,.newscontent a,,.newscontent li a {color:#666;line-height:180%;font-size:12px;FONT-FAMILY: "微软雅黑",Arial, Helvetica, sans-serif;}

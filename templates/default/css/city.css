@@ -1,0 +1,10 @@
+﻿.placeholder{position:absolute;width:360px;height:auto; padding-bottom:25px; border:1px solid #ddd; background-color:#f9f9f9;line-height:33px; display:none; margin-left:70px; z-index:99;}
+
+.pd_div{display:block; height:30px; line-height:30px;}
+.pd_seldiv{ float:left;background-color:#FFFFFF; color:#0099CC; width:100px; text-align:center; display:block; border-right:1px solid #ddd;cursor:default; }
+.pd_nosel{float:left;background-color:#efefef; color:#999; width:100px; text-align:center; display:block; border-right:1px solid #ddd;border-bottom:1px solid #ddd; cursor:default; }
+.pd_close{float:right;line-height:30px; padding-right:5px;}
+
+.pd_condiv{ padding:5px; line-height:24px; padding-left:15px;}
+.pd_condiv a{ float:left;width:65px; line-height:24px;}
+.pd_condiv a.active{ color:#0099CC;}

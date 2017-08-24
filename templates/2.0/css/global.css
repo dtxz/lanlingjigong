@@ -1,0 +1,15 @@
+﻿/*
+版权所有 (C) 成都元鼎信息技术有限公司
+cdydinfo.com (C) 2002-2009 yuanding Inc.
+Css功能：全局属性
+*/
+
+/*初始化*/
+h1, h2, h3, h4, h5, h6, h7, h8, p, ul, ol, dl, dt, dd, li, body, form, input, button, img, cite, strong, em, table, td, th, div { padding:0px; margin:0px;FONT-FAMILY: "微软雅黑", Arial, Helvetica, sans-serif;}
+img, table { border:0; FONT-FAMILY: "微软雅黑", Arial, Helvetica, sans-serif;}
+ul, ol { list-style-type:none;FONT-FAMILY: "微软雅黑", Arial, Helvetica, sans-serif;}
+ 
+/*预设清除浮动*/
+.clear{ clear:both; } 
+/**圆角阴影效果**/
+.shadow{border-radius:1px; -moz-box-shadow: 0px 0px 15px #bfbaa4;-webkit-box-shadow: 0px 0px 15px #bfbaa4;box-shadow: 0px 0px 15px #bfbaa4;margin:15px; background-color:#edebe3;}

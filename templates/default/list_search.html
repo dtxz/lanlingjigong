@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>站内搜索 - <?php echo $site_title;?></title>
+<META content="<?php echo $site_keywords;?>" name=Keywords>
+<META content="<?php echo $site_description;?>" name=Description>
+<?php require("../".$templatesfile."common/inc_share.php");?>
+</head>
+<body>
+<?php require_once("../".$templatesfile."common/inc_top.php");?>
+<?php require_once("../".$templatesfile."common/inc_ny_adv.php");?>
+
+<div class="divmain">
+	<div class="maintable">
+	<div class="topmenudownbg"></div>
+	<div class="listpad">
+	  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+		<td width="260" valign="top" class="nyleftbg">
+		<!--左侧菜单------------------------------------------------------->
+		<!--如果有子菜单-->
+		<?php if ($subcount>0){?>
+			<table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+			  <td  valign="middle" class="nyleftbarbg">
+			  <span class="nyleftbartitle">
+ 
+				  <?php 
+					echo $classname;
+				  ?>
+	 
+			  </span>
+			  </td>
+	
+			</tr>
+		  </table>
+			<div class="left_con_pad">
+			<?php 
+			$pageinfo->GetSubMenu($tid,$sid,$aid,"list");
+			?>
+			</div>
+		<?php }else{?>
+
+	 <?php }?>
+	 <!--左侧菜单 end------------------------------------------------------->
+	<!--左侧公用部分-->
+	<?php require_once("../".$templatesfile."common/inc_left.php");?>
+		
+		  </td>
+		  <td  width="14" height="550" align="left" valign="top" class="middlebg"></td>
+		  <td  valign="top" class="rightcon">
+		  <!--右侧部分-->
+		  <table width="100%" height="52" border="0" cellpadding="0" cellspacing="0" class="right_bar_bg">
+            <tr>
+              <td  height="52" align="left" valign="middle"class="nynav"><div class="right_bar_title"><p class=" bar_icon_4"><?php echo $curClassName;?></p></div></td>
+              <td align="right" valign="middle"><span class="right_bar_current"><?php echo $curPosInfo;?></span></td>
+            </tr>
+          </table>
+		  <div class="pageCon">
+          <?php $pageinfo->NewsPageList_Pic($tmpsql,$pagesize,$arrparam);?> 
+          </div>
+		  </td>
+        </tr>
+      </table>
+	</div>
+</div>
+<?php require("../".$templatesfile."common/inc_bottom.php");?>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿
+@media only screen and (min-width: 641px) and (max-width: 2000px) {
+	header{display:none;}
+	nav{ display:none;}
+	#user_header{ display:block;}
+	#user_nav{ display:block;}
+	
+	#pc_nav{display:block;}
+	.fa-circle-o{ background:url(../images/mobile/member_circle.png); background-repeat:no-repeat; background-position:left;}
+	.pull-right{ background:url(../images/mobile/member_arrow.png); background-repeat:no-repeat; background-position:right;}
+	
+	 #newsleft{ display:block;}
+	 #newscon{}
+	 #search_wap{ display:none;}
+	 #search_pc{ display:block; padding-left:25px; padding-right:25px;}
+	 
+	 /*企业列表*/
+	 .colist{min-height:250px;}
+	 .colist ul{}
+	 .colist ul li{float:left; width:47%; margin-left:1.5%; margin-right:1.5%; margin-bottom:10px; border:1px solid #fff;border-bottom:1px dotted #efefef;}
+	 .colist ul li:hover{background-color:#fff;}
+	 .colist ul li .cocity{float:right;font-size:0.8em; padding-top:5px;}
+	 .colist ul li p.codes{font-size:0.8em;}
+	 /*简历详细页*/
+	 #resume_pc{ display:block;}
+	 #resume_mobile{ display:none;}
+	 /*招聘搜索的广告*/
+	 #job_adv{ display:block;}
+}

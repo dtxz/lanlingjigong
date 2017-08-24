@@ -1,0 +1,9 @@
+<?php
+//定义配置文件
+require("public/appconfig.php");
+$MemberCount=$member->GetUserCount(1);
+$CompanyCount=$member->GetUserCount(2);
+$MemberAll=163+$MemberCount+$CompanyCount;
+require_once("".$templatesfile.$PrexIndex.$PrexChar.$PrexDefault);
+$db->close();//关闭连接
+?>

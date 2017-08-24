@@ -1,0 +1,41 @@
+﻿@media only screen and (max-width: 640px) {
+	header{display:block;}
+	nav{ display:block;}
+	#user_header{ display:block;}
+	#user_nav{ display:block;}
+	
+	#pc_nav{display:none;}
+	.am-icon-home{ background:url(../images/mobile/icon_home.png); background-position:left; background-repeat:no-repeat;}
+	.am-icon-list{background:url(../images/mobile/icon_work.png); background-position:left; background-repeat:no-repeat;}
+	.am-icon-user-plus{background:url(../images/mobile/icon_resume.png); background-position:left; background-repeat:no-repeat;}
+	.am-icon-user{background:url(../images/mobile/icon_me.png); background-position:left; background-repeat:no-repeat;}
+	
+	.am-icon-bars{ background:url(../images/mobile/icon_menu.png); background-position:left; background-repeat:no-repeat;}
+	.am-gotop-icon{background:url(../images/mobile/toparrow.png) left center;background-repeat:no-repeat;}
+	 a:hover span.am-gotop-icon{background:url(../images/mobile/toparrow_on.png) left center;background-repeat:no-repeat;}
+ 	 ul.navbar-nav{}
+	 ul.navbar-nav li{ display:list-item;width:auto; float:left;}
+	 .fa-circle-o{ background:url(../images/mobile/member_circle.png); background-repeat:no-repeat; background-position:left;}
+	 .pull-right{ background:url(../images/mobile/member_arrow.png); background-repeat:no-repeat; background-position:right;}
+	 
+	 #newsleft{ display:none;}
+     #newscon{ width:100%; float:none;}
+	 
+	 /*搜索*/
+	 #search_wap{ display:block;}
+	 #search_pc{ display:none;}
+	 
+	  /*企业列表*/
+	 .colist{min-height:250px;}
+	 .colist ul{}
+	 .colist ul li{float:left; width:97%; margin-left:1.5%; margin-right:1.5%; margin-bottom:10px; border:1px solid #fff;border-bottom:1px dotted #efefef;}
+	 .colist ul li:hover{background-color:#fff;}
+	 .colist ul li .cocity{float:right;font-size:0.8em; padding-top:5px;}
+	 .colist ul li p.codes{font-size:0.8em;}
+	 
+	 /*简历详细页*/
+	 #resume_pc{ display:none;}
+	 #resume_mobile{ display:block;}
+	 /*招聘搜索的广告*/
+	 #job_adv{ display:none; }
+}

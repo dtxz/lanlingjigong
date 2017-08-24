@@ -1,0 +1,31 @@
+body {margin:0; padding:0; font:12px "\5B8B\4F53",san-serif; /*background-image: url(../../skins/images/menu/left_bg.gif); background-repeat:no-repeat;*/background-color:#245fa7; margin-left:4px; margin-right:4px;overflow-x:hidden;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0; font-family:'微软雅黑';}   
+table,td,tr,th{font-size:12px; font-family:'微软雅黑';}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+a:link,a:visited{ text-decoration:none;}
+
+.main_left {
+	
+	/*background-image: url(../../skins/images/menu/left_bg.gif);*/
+	
+}
+
+/*菜单个性设置*/
+.box{/*background:url(../../skins/images/menu/menuboxbg.gif) repeat-y left top;*/ border:0px solid #1D1D1D;}
+.box ul{list-style:none;text-align:left;border-top:0px solid #337abb;}
+.box h2{height:35px;line-height:35px;/*background:url(../../skins/images/menu/text.gif) no-repeat left top;*/font-size:14px; color:#FFFFFF; text-align:center;}
+/*一级菜单*/
+.menu li.level1 a{display:block;line-height:35px;height:35px;padding-left:30px; font-size:14px; font-family:'微软雅黑'; font-weight:bold;color:#8bd2ff;background:url(../../skins/images/icon_barbg_arrow.png) no-repeat left center; border-bottom:1px solid #337abb;}
+/*一级菜单两态样式,供JS调用*/
+.menu li.level1 a.hove{/*background:url(../../skins/images/menu/bg.gif) no-repeat left top;*/}
+.menu li.level1 a.cur{/*background:url(../../skins/images/menu/bg2.gif) no-repeat left top;*/}
+/*二级菜单*/
+.menu li ul{overflow:hidden; border:1px solid #1553a0; margin-top:5px; margin-bottom:0px;background: #3b84c7; border-radius:4px; padding:5px; padding-left:0px; padding-right:0px;}
+.menu li ul.level2{display:none;}
+.menu li ul.level2 li{height:30px;line-height:30px;}
+.menu li ul.level2 li a{display:block;height:30px;line-height:30px;background: #3b84c7 url(../../skins/images/menu/t1.gif) no-repeat 30px center;padding-left:45px;color:#acd3f6;border-bottom:0px solid #245fa7; font-size:12px; font-family:'微软雅黑';  font-weight:normal;}
+/*二级菜单两态样式,供JS调用*/
+.menu li ul.level2 li a.hove1{background:#f0f5fb url(../../skins/images/menu/t2.gif) no-repeat 30px center;color:#000;}

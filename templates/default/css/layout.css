@@ -1,0 +1,195 @@
+﻿@charset "utf-8";
+@import url("global.css");
+@import url("page.css");
+@import url("pc.css");
+@import url("mobile.css");
+/*
+版权所有 (C) 成元鼎信息技术有限公司
+设计人：wolfelove
+Css功能：页面布局
+*/
+/*主体布局********************************************************************/
+/*body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	 background-color:#fff;
+
+}*/
+a.reg:link{background-color:#3c8dbc; color:#fff; padding:8px 10px;border-radius:5px;}
+a.reg:visited{background-color:#3c8dbc; color:#fff; padding:8px 10px;border-radius:5px;}
+a.reg:active{background-color:#3c8dbc; color:#fff; padding:8px 10px;border-radius:5px;}
+a.reg:hover{background-color:#259be0; color:#fff; padding:8px 10px; border-radius:5px;}
+
+
+/***新闻列表（分页使用）****/
+.newspagelist{width:100%;}
+.newspagelist ul{list-style:none;padding-bottom:0px;}
+.newspagelist ul li{ border-bottom:1px dotted #efefef; line-height:36px; height:36px;padding-left:0px; margin:0px; text-align:left; background-image:url(../images/share/leftarrow2.gif); background-position:left;  background-repeat:no-repeat; padding-left:16px;  overflow:hidden;}
+ 
+.newspagelist ul li span a{height:36px; line-height:36px; font-size:14px; color:#666;}
+.newspagelist ul li span a:hover{color:#ff0000;}
+.newspagelist ul li span.title{ float:left;}
+.newspagelist ul li span.date{ float:right;  height:36px; line-height:36px; color:#654f35; font-size:14px; font-family:"微软雅黑"; padding-right:10px; font-size:14px;}
+
+/******frame**********************************************************/
+.divmaintop{width:100%; margin:0 auto;height:100%;}
+.divmain{max-width:1020px; margin:0 auto;  background-color:#666666; height:500px;}
+.maintable{ max-width:1020px; margin:0 auto; color:#fff;}
+.framepad{ padding-top:15px; padding-bottom:25px; padding-left:10px; padding-right:10px;}
+
+.pad5{ padding:10px;}
+.pad10{ padding:10px;}
+.pad15{ padding:15px;}
+.pad20{ padding:20px;}
+
+/***首页图标***/
+.am-icon-home{ background-image:url(/templates/default/images/mobile/icon_home.png); background-repeat:no-repeat; background-position:left;}
+
+/**文章左侧图标**/
+.left_menu_li{padding-left:15px;padding-right:15px;}
+.left_menu_li a{ background-image:url(/templates/default/images/share/leftarrow.gif);  background-repeat:no-repeat; background-position:left;padding:15px;}
+
+/**首页推荐企业样式**/
+.companyinfo{}
+.companyinfo ul{padding:10px; padding-left:12px; padding-top:5px; padding-bottom:5px;}
+.companyinfo ul li{float:left; width:155px; margin:5px; text-align:center; border:1px solid #f0f0f0; border-radius:4px; overflow:hidden;}
+.companyinfo ul li:hover{ border:1px solid #9dcbf3;}
+.companyinfo ul li a{ color:#aaa; display:block; font-size:14px; height:120px; padding:3px; overflow:hidden;}
+.companyinfo ul li a:hover{ color:#FF6600;}
+.companyinfo ul li a img{ 
+height:80px;      
+filter:alpha(opacity=100);   
+-moz-opacity:1;   
+-khtml-opacity: 1;   
+opacity: 1;  
+}
+.companyinfo ul li a:hover img{
+filter:alpha(opacity=100);   
+-moz-opacity:1;   
+-khtml-opacity:1;   
+opacity: 1;  
+
+}
+.companyinfo ul li a p{line-height:36px; overflow:hidden;}
+
+a.morelink{color:#aaa;}
+a.morelink:hover{ color:#53a0e3;}
+
+/***block_link**/
+.block_link{}
+.block_link ul{ list-style:none; padding:15px;}
+.block_link ul li{ line-height:28px;}
+.block_link ul li a{ color:#333333;}
+
+/**首页登录切换效果**/
+.loginon{color:#FFFFFF; text-align:center; font-size:16px; }
+.loginoff{color:#FFFFFF; background-color:#2c2c2c; text-align:center;font-size:16px;}
+
+
+/**表单控件演示***/
+input.usertext{
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+	color: #aaa;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	/*border-radius: 5px; */
+	padding-left:5px; 
+	padding-right:5px;
+	padding-bottom:4px;
+	padding-top:4px;
+	line-height:20px;
+	height:32px;
+	/*box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);*/
+	margin:5px;
+}
+/*home login*/
+input.logintext{
+	font-family: "微软雅黑";
+	font-size: 0.8rem;
+	color: #aaa;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	/*border-radius: 5px; */
+	text-indent:15px;
+	width:100%;
+	padding-bottom:4px;
+	padding-top:4px;
+	line-height:18px;
+	height:28px;
+	/*box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);*/
+}
+select.usertext{ 
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+	margin:5px;color: #aaa;	
+	padding-left:5px; 
+	padding-right:5px;
+	padding-bottom:4px;
+	padding-top:4px;
+	line-height:20px;
+	height:32px;
+	border: 1px solid #ccc;
+/*	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);*/
+
+}
+
+select.form_group_select{ 
+	clear:inherit;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	margin:5px;color: #aaa;	
+	padding-left:5px; 
+	padding-right:5px;
+	padding-bottom:4px;
+	padding-top:4px;
+	line-height:20px;
+	height:32px;
+	border: 1px solid #d2d6de;
+/*	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);*/
+
+}
+.right_adv_top{}
+
+.right_adv_top ul{ list-style:none;}
+
+.right_adv_top ul li{ margin-bottom:10px;}
+.right_adv_top ul li a img{ border:0px;}
+
+/*首页简历*/
+.div_resume_block{}
+.div_resume_block td{font-size:14px; padding:0 5px;}
+.div_resume_block td a{ color:#999;font-size:14px}
+.div_resume_block td a:hover{color:#ffbc01; text-decoration:none;}
+.div_resume_block td a div{border:1px solid #efefef; padding:10px; background-color:#fff; border-radius:5px;}
+.div_resume_block td a:hover div{border:1px solid #ffbc01; padding:10px;  }
+
+.div_resume_block td a div img{
+filter:alpha(opacity=100);   
+-moz-opacity:1;   
+-khtml-opacity: 1;   
+opacity: 1;
+/*  
+-webkit-filter: grayscale(100%); 
+-webkit-filter: grayscale(1); 
+filter: grayscale(100%); 
+filter:gray; */
+}
+.div_resume_block td a:hover div img{
+filter:alpha(opacity=100);   
+-moz-opacity:1;   
+-khtml-opacity: 1;   
+opacity: 1;  
+ 
+}
+
+/**项目图片高度和宽度控制**/
+.am-img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@import url("page.css");

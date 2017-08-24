@@ -1,0 +1,1 @@
+var DTPath = "http://lanling.beas.cn/";var SKPath = "http://lanling.beas.cn/skin/default/";var MEPath = "http://lanling.beas.cn/member/";var DTEditor = "kindeditor";var CKDomain = "";var CKPath = "/";var CKPrex = "cwz_";

@@ -1,0 +1,18 @@
+﻿#sidebar{width:210px;background:#f7f7f7;height:auto;border:1px solid #efefef; margin:0px;padding:0px; padding-top:5px;padding-bottom:15px;  }
+#sidebar h3{padding-left:30px; margin:5px;}
+.sidelist{position:relative;z-index:1;height:28px;width:210px; padding:0px;}
+.sidelist span h3{position:relative;z-index:2;height:28px;line-height:28px;font-size:14px;font-weight:normal;background-image:url(/images/leftarrow.gif); background-repeat:no-repeat;}
+.sidelist span h3 a{font-size:13px;text-decoration:none;display:block;width:auto;height:auto;color:#666; font-family:"微软雅黑"}
+.sidelist span h3 a:hover{color:#0066CC;font-weight:bold;}
+
+.i-list{display:none;position:absolute;z-index:1;left:210px;top:-30px;width:450px;min-height:250px;background:#fff;border:1px solid #efefef;}
+
+.i-list ul.sublist{padding:15px; min-height:220px; padding-top:5px; padding-right:0px;}
+.i-list ul.sublist li{width:180px;float:left;list-style:none;line-height:27px;heignt:27px; border-bottom:1px dotted #efefef; margin-right:5px; margin-left:10px;  background-image:url(../images/arrow.gif); background-repeat:no-repeat; background-position:left; padding-left:14px;}
+.i-list ul.sublist li a{color:#666;text-decoration:none;font-size:12px;}
+.i-list ul.sublist li a:hover{text-decoration:underline;color:red;}
+
+.hover{border:1px solid #efefef;border-right:0;width:175px;background:#fff;}
+
+.classtitle{display:block; line-height:24px;padding:15px; padding-left:45px;padding-bottom:10px; margin:0px;}
+.classtitlef{clear:both; border-bottom:1px dotted #efefef; font-size:16px; font-family:'微软雅黑';}

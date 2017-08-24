@@ -1,0 +1,102 @@
+/* CSS Document */
+
+body{
+background:url(../../skins/login/body_bg.jpg);
+color:#202020;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow:hidden;
+font-size: 12px;
+margin-top: 0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#container{
+margin:0;
+width:100%;
+text-align:center;
+}
+#logindiv{
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+width:960px;
+height:600px;
+background:url(../../skins/login/con_bg.jpg);
+position:relative;
+}
+#vm_ip{
+position:absolute;
+left:505px;
+top:200px;
+
+}
+#user{	
+/*background:url(../../skins/login/txt_input_bg.jpg);*/
+margin-left:10px;
+width:151px;
+height:28px;
+line-height:28px;
+font-family:Verdana, Geneva, sans-serif;
+font-size:16px;
+text-indent:10px;
+border: none;
+outline:none;
+box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+border: 1px solid #C4D8ED;
+color:#999;
+}
+#vm_psw{
+position:absolute;
+left:505px;
+top:235px;
+}
+#password{
+/*background:url(../../skins/login/txt_input_bg.jpg);*/
+margin-left:10px;
+width:151px;
+height:28px;
+line-height:28px;
+font-family:Verdana, Geneva, sans-serif;
+font-size:16px;
+text-indent:10px;
+border: none;
+outline:none;
+box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+border: 1px solid #C4D8ED;
+color:#999;
+}
+#vm_valicode{
+position:absolute;
+left:505px;
+top:270px;
+}
+#vercode{
+/*background:url(../../skins/login/txt_input_bg02.jpg);*/
+margin-left:10px;
+width:90px;	
+height:28px;
+line-height:28px;
+font-family:Verdana, Geneva, sans-serif;
+font-size:16px;
+text-indent:10px;
+border: none;
+outline:none;
+box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+border: 1px solid #C4D8ED;
+color:#999;
+}
+#submitbtn{
+background:url(../../skins/login/sign_btn_bg.jpg) no-repeat;
+position:absolute;
+left:587px;
+top:305px;
+width:90px;
+height:35px;
+margin-left:0px;
+margin-right:0px;
+color:#eeeeee;
+border: none;
+margin-top:10px;
+}

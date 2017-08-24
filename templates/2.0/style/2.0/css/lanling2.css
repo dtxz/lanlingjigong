@@ -1,0 +1,316 @@
+body{background-color:#fcfcfc;}
+/*顶部导航样式*/
+.logo{
+    margin-top:20px;
+}
+.nav{
+    min-height:90px;
+    margin-top:15px;
+    margin-left:15px;
+}
+.navbar {
+    margin-bottom:0;
+    min-height:90px;
+    position:relative;
+}
+.tel{
+    font-size:22px;
+    font-family:"Microsoft YaHei";
+    font-weight:800;
+    color:#00a9ef;
+    left:50px;
+    margin-top:23px;
+    margin-right:23px;
+}
+.nav > li > a {
+    color:#757475;
+    font-size:18px;
+    font-family:"Microsoft YaHei";
+    font-weight:500;
+}
+.nav > li > a:hover{
+    color:#00a9ef;
+}
+.navbar-toggle {
+    background-color:#00a9ef;
+}
+.nav_text{
+    color:#fcfcfc;
+}
+.btn-primary {
+    background-color:#00a9ef;
+    border-color:#00a9ef;
+}
+/*banner版本样式*/
+/*.banner{
+
+    background-color:#fcfcfc;
+}*/
+/*项目说明版本样式*/
+.project_introduce{
+    background-color:#fcfcfc;
+    min-height:450px;
+}
+.tab{
+    margin-top:30px;
+}
+.tab .nav-tabs{
+    border:none;
+}
+.nav-tabs li a{
+    width: 260px;
+    height: 47px;
+    font-family:"Microsoft YaHei";
+    background-image:url(../images/project_introduce_01.png);
+    background-repeat:no-repeat;
+    transition: all 0.3s ease-in 0s;
+    margin-right:10px;
+    margin-left:15px;
+}
+
+/*.nav-tabs li a i{
+    display: inline-block;
+    text-align: center;
+    margin-right:10px;
+}*/
+.nav-tabs li a:hover
+{
+
+}
+.nav-tabs li:last-child{
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover
+{
+    background-image:url(../images/project_introduce_02.png);
+    background-repeat:no-repeat;
+    margin-top:-6px;
+    color: #fcfcfc;
+    padding: 10px 30px;
+    width: 260px;
+    height: 60px;
+    font-family:"Microsoft YaHei";
+    font-weight:800;
+    border:none;
+}
+.tab .tab-content{
+    margin-left:35px;
+    margin-bottom:25px;
+    padding-left:5px;
+    line-height:15px;
+    border:none; /*box-shadow:0px 1px 0px #808080;*/
+}
+.tab .tab-content h3{
+    margin-top:0;
+    font-family:"Microsoft YaHei";
+    font-weight:800;
+    color:#00a9ef;
+}
+.tab .tab-content p {
+    /*font-size: 16px;*/
+    color:#757475;
+    line-height: 70px;
+}
+.tab .tab-content p {
+   /* font-size:16px;*/
+    color:#757475;
+    line-height:50px;
+}
+.tab .tab-content li{
+    color:#757475;
+    line-height:25px;
+    margin-bottom:10px;
+}
+@media only screen and (max-width:767px){
+    .nav-tabs li{
+        width:100%;
+        margin-bottom:10px;
+    }
+    .nav-tabs li a{
+        padding:10px;
+    }
+    .nav-tabs li.active a,
+    .nav-tabs li.active a:focus,
+    .nav-tabs li.active a:hover{
+        padding:10px;
+        margin-top: 0;
+    }
+}
+
+/*施工项目样式*/
+.construction_item{
+    background-color:#293037;
+    min-height:595px;
+}
+.construction_item h3{
+    color:#00a9ef;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 55px;
+    font-family: "Microsoft YaHei";
+    font-weight: 800;
+}
+.construction_item p{
+    color: #9fa0a1;
+    text-align: center;
+    /*font-size: 16px;*/
+    margin-top: 30px;
+    font-family: "Microsoft YaHei";
+
+}
+.list-content {
+    margin-top:35px;
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+}
+.item_bg{
+    margin-top: 15px;
+}
+.pro_more{
+    float:right;
+}
+/*---------------工人物语----------------------------*/
+.workers{
+    background-color:#fcfcfc;
+    min-height:700px;
+}
+.workers h3{
+    color:#757475;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    font-family: "Microsoft YaHei";
+    font-weight: 800;
+}
+/*---------------------合作伙伴----------------*/
+.partner{
+    background-color:#00a9ef;
+    min-height:500px;
+}
+.partner h3{
+    color:#fcfcfc;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 800;
+}
+.partner_content{
+    margin-top:40px;
+}
+
+.partner_content a{
+    color:#fcfcfc;
+    margin-bottom:5px;
+    line-height: 20px;
+    text-align: center;
+}
+.partner_content a:hover {
+    color:#293037;
+    text-decoration:none;
+}
+
+/*index_icons*/
+.index_icons{
+    min-height: 240px;
+    text-align: center;
+}
+.icons{
+    margin-top:15px;
+    padding-top: 20px;
+}
+.index_icons p{
+    color: #00a9ef;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.index_icons small{
+    color:#757475;
+
+}
+
+/*脚部友情链接*/
+.footer{
+    background-color:#293037;
+    min-height:465px;
+    color: #fcfcfc;
+    font-family: 微软雅黑;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer_flink{
+    overflow: hidden;
+    line-height:20px;
+    margin-bottom:15px;
+}
+.footer_flink_right a{
+    overflow: hidden;
+    margin-bottom:5px;
+    color:#999;
+}
+.footer_nav a{
+    color: #fcfcfc;
+    margin:15px;
+    line-height: 20px;
+    text-align: center;
+}
+/*底部声明*/
+.tail-left{
+    margin-top:15px;
+}
+.tail-right{
+    margin-top:35px;
+}
+.tail-expres{
+    padding-left: 57px;
+}
+.tail-prompts {
+    display: block;
+    color: #999;
+    line-height: 20px;
+    padding-top: 16px;
+}
+.tail-picture {
+    display: block;
+    zoom: 1;
+}
+
+.tail-picture a span {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/version-ex.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    display: block;
+    height: 45px;
+    transition-delay: 0s;
+    transition-duration: 0.15s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 125px;
+}
+.tail-picture a strong {
+    display: block;
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    background: url("../images/version-fl.png") no-repeat;
+    transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+}
+.tail-picture .tail-bd-color {
+    border-right: 1px solid #3a3a3a;
+}
+.tail-picture a {
+    display: block;
+    float: left;
+    width: 145px;
+    height: 45px;
+}

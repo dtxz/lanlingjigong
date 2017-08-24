@@ -1,0 +1,79 @@
+﻿/*
+版权所有 (C) 成都元鼎信息技术有限公司
+cdydinfo.com (C) 2002-2009 yuanding Inc.
+Css功能：字体连接属性
+*/
+/*初始化*/
+A.viplink:link {COLOR:#666666;font-weight:bold;TEXT-DECORATION: underline}
+A.viplink:visited {COLOR: #666666;font-weight:bold; TEXT-DECORATION: underline}
+A.viplink:active {COLOR: #d34e90; TEXT-DECORATION: underline}
+A.viplink:hover {COLOR: #d34e90; TEXT-DECORATION: underline}
+
+A.yellowlink:link {COLOR:#ff9000; TEXT-DECORATION: none}
+A.yellowlink:visited {COLOR: #ff9000; TEXT-DECORATION: none}
+A.yellowlink:active {COLOR: #ff9000; TEXT-DECORATION: underline}
+A.yellowlink:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+A.adlink:link {COLOR:#676767; font-size:14px; font-weight:bold;TEXT-DECORATION: none}
+A.adlink:visited {COLOR: #676767;font-size:14px; font-weight:bold; TEXT-DECORATION: none}
+A.adlink:active {COLOR: #676767; font-size:14px; font-weight:bold;TEXT-DECORATION: underline}
+A.adlink:hover {COLOR: #FF0000; font-size:14px; font-weight:bold;TEXT-DECORATION: underline}
+ 
+
+A.bluelink:link {COLOR:#005fad; TEXT-DECORATION: none}
+A.bluelink:visited {COLOR: #005fad; TEXT-DECORATION: none}
+A.bluelink:active {COLOR: #ff0000; TEXT-DECORATION: underline}
+A.bluelink:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+A.redlink:link {COLOR:#ff0000; TEXT-DECORATION: none}
+A.redlink:visited {COLOR: #ff0000; TEXT-DECORATION: none}
+A.redlink:active {COLOR: #ff0000; TEXT-DECORATION: underline}
+A.redlink:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+A.graylink:link {COLOR:#999999; TEXT-DECORATION: none}
+A.graylink:visited {COLOR: #999999; TEXT-DECORATION: none}
+A.graylink:active {COLOR: #ff0000; TEXT-DECORATION: underline}
+A.graylink:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+
+A.citylink:link {COLOR:#444; TEXT-DECORATION: none}
+A.citylink:visited {COLOR: #444; TEXT-DECORATION: none}
+A.citylink:active {COLOR: #ff0000; TEXT-DECORATION: underline}
+A.citylink:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+A.whitelink:link {COLOR:#ffffff; font-size:12px; TEXT-DECORATION: none}
+A.whitelink:visited {COLOR: #ffffff;font-size:12px; TEXT-DECORATION: none}
+A.whitelink:active {COLOR: #ffffff;font-size:12px; TEXT-DECORATION: underline}
+A.whitelink:hover {COLOR: #ffffff;font-size:12px; TEXT-DECORATION: underline}
+
+A.whitelink2:link {COLOR:#fffc01;font-size:13px; TEXT-DECORATION: none}
+A.whitelink2:visited {COLOR: #fffc01;font-size:13px; TEXT-DECORATION: none}
+A.whitelink2:active {COLOR: #fffc01;font-size:13px; TEXT-DECORATION: underline}
+A.whitelink2:hover {COLOR: #fffc01;font-size:13px; TEXT-DECORATION: underline}
+
+A.menulink:link {COLOR:#c5b8b3; font-size:16px; font-weight:bold;TEXT-DECORATION: none}
+A.menulink:visited {COLOR: #c5b8b3;font-size:16px; font-weight:bold; TEXT-DECORATION: none}
+A.menulink:active {COLOR: #c5b8b3; font-size:16px; font-weight:bold;TEXT-DECORATION: none}
+A.menulink:hover {COLOR: #c5b8b3; font-size:16px; font-weight:bold;TEXT-DECORATION: none}
+
+A.menulinksel:link {COLOR:#990000; font-size:14px; font-weight:bold;TEXT-DECORATION: none}
+A.menulinksel:visited {COLOR: #990000;font-size:14px; font-weight:bold; TEXT-DECORATION: none}
+A.menulinksel:active {COLOR: #990000; font-size:14px; font-weight:bold;TEXT-DECORATION: none}
+A.menulinksel:hover {COLOR: #990000; font-size:14px; font-weight:bold;TEXT-DECORATION: none}
+
+A.ulink:link {COLOR:#006699; font-size:13px;TEXT-DECORATION: none}
+A.ulink:visited {COLOR: #006699;font-size:13px; TEXT-DECORATION: none}
+A.ulink:active {COLOR: #006699; font-size:13px;TEXT-DECORATION: underline}
+A.ulink:hover {COLOR: #FF0000; font-size:13px;TEXT-DECORATION: underline}
+
+A.link14:link {font-size:14px;TEXT-DECORATION: none}
+A.link14:visited {font-size:14px; TEXT-DECORATION: none}
+A.link14:active {font-size:14px;TEXT-DECORATION: underline}
+A.link14:hover {font-size:14px;TEXT-DECORATION: underline}
+
+
+A.submenusel:link { background-color:#a70300;}
+A.submenusel:visited {background-color:#a70300;}
+A.submenusel:active {background-color:#a70300;}
+A.submenusel:hover {background-color:#a70300;}
+ 

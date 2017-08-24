@@ -1,0 +1,220 @@
+﻿.new-btn-login-sp{
+	border:1px solid #D74C00;
+	padding:1px;
+	display:inline-block;
+}
+
+.new-btn-login{
+    background-color: transparent;
+    background-image: url("../user/pay/images/new-btn-fixed.png");
+    border: medium none;
+}
+.new-btn-login{
+    background-position: 0 -198px;
+    width: 82px;
+	color: #FFFFFF;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px 0px;
+}
+.new-btn-login:hover{
+	background-position: 0 -167px;
+	width: 82px;
+	color: #FFFFFF;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px 0px;
+}
+.bank-list{
+	overflow:hidden;
+	margin-top:5px;
+}
+.bank-list li{
+	float:left;
+	width:153px;
+	margin-bottom:5px;
+}
+
+#main{
+	width:750px;
+	margin:0 auto;
+	font-size:14px;
+	font-family:'宋体';
+}
+#logo{
+	background-color: transparent;
+    background-image: url("../user/pay/images/new-btn-fixed.png");
+    border: medium none;
+	background-position:0 0;
+	width:166px;
+	height:35px;
+    float:left;
+}
+.red-star{
+	color:#f00;
+	width:10px;
+	display:inline-block;
+}
+.null-star{
+	color:#fff;
+}
+.content{
+	margin-top:5px;
+}
+
+.content dt{
+	width:100px;
+	display:inline-block;
+	text-align:right;
+	float:left;
+	line-height:30px; font-size:14px;
+	
+}
+.content dd{
+	margin-left:100px;
+	margin-bottom:5px;
+	line-height:30px;font-size:14px;
+}
+#foot{
+	margin-top:10px;
+}
+.foot-ul li {
+	text-align:center;
+}
+.note-help {
+    color: #999999;
+    font-size: 12px;
+    line-height: 130%;
+    padding-left: 3px;
+}
+<!-- -->
+.icon-info{
+    background-color: #D2EEF7;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    font-weight: normal;
+    height: 30px;
+    line-height: 15px;
+    padding: 0 3px;
+    top: -1px;
+    font: 12px/1.5 tahoma,arial,宋体;
+
+}
+.icon{
+    background-image: url(../user/pay/images/bankicon.png);
+    display:inline-block;
+    height: 30px;
+    width:120px;
+    background-repeat: no-repeat;
+}
+.ICBC{    
+    background-position: 0 -40px;	 border:1px solid #ddd;
+}
+.CMB {
+    background-position: 0 -80px;	 border:1px solid #ddd;
+}
+.CCB{
+    background-position: 0 -320px;	 border:1px solid #ddd;
+}
+.BOC{
+    background-position: 0 -520px;	 border:1px solid #ddd;
+}
+.ABC{
+    background-position: 0 -480px;	 border:1px solid #ddd;
+}
+.COMM{
+    background-position: 0 -600px;	 border:1px solid #ddd;
+}
+.PSBC {
+    background-position: 0 -400px;	 border:1px solid #ddd;
+}
+.CEB {
+    background-position: 0 -440px;	 border:1px solid #ddd;
+}
+.SPDB {
+    background-position: 0 -360px;	 border:1px solid #ddd;
+}
+.GDB {
+    background-position: 0 -280px;	 border:1px solid #ddd;
+}
+.CITIC {
+    background-position: 0 -200px;	 border:1px solid #ddd;
+}
+.CIB {
+    background-position: 0 -3365px;	 border:1px solid #ddd;
+}
+.SDB {
+    background-position: 0 -240px;	 border:1px solid #ddd;
+}
+.CMBC {
+    background-position: 0 -120px;	 border:1px solid #ddd;
+}
+.HZCB {
+    background-position: 0 -760px;	 border:1px solid #ddd;
+}
+.SHBANK {
+    background-position: 0 -840px;	 border:1px solid #ddd;
+}
+.BJRCB {
+    background-position: 0 -2640px;	 border:1px solid #ddd;
+}
+.SPABANK {
+    background-position: 0 -1880px;	 border:1px solid #ddd;
+}
+.FDB {
+    background-position: 0 -1320px;	 border:1px solid #ddd;
+}
+.NBBANK {
+    background-position: 0 -1240px;	 border:1px solid #ddd;
+}
+.BJBANK {
+    background-position: 0 -3240px;	 border:1px solid #ddd;
+}
+.WZCB {
+    background-position: 0 -1720px;	 border:1px solid #ddd;
+}
+.ICBCBTB{
+    background-image: url(../user/pay/images/ENV_ICBC_OUT.gif);	 border:1px solid #ddd;
+}
+.CCBBTB{
+    background-image: url(../user/pay/images/ENV_CCB_OUT.gif);	 border:1px solid #ddd;
+}
+.ABCBTB{
+    background-image: url(../user/pay/images/ENV_ABC_OUT.gif);	 border:1px solid #ddd;
+}
+.SPDBBTB{
+    background-image: url(../user/pay/images/ENV_SPDB_OUT.gif);	 border:1px solid #ddd;
+}
+<!-- -->
+.cashier-nav {
+    font-size: 14px;
+    margin: 15px 0 10px;
+    text-align: left;
+    height:30px;
+    border-bottom:solid 1px #CFD2D7;
+}
+.cashier-nav ol li {
+    float: left;
+}
+.cashier-nav li.current {
+    color:#006699;
+    font-weight: bold;
+}
+.cashier-nav li.last {
+    clear:right;
+}
+.alipay_link {
+    text-align:right;
+}
+.alipay_link a:link{
+    text-decoration:none;
+    color:#8D8D8D;
+}
+.alipay_link a:visited{
+    text-decoration:none;
+    color:#8D8D8D;
+}
+.youhuijuan{background-color:#FFFEF0; border:1px solid #ccc; width:400px; height:auto; position:relative; left:100px; display:none; float:left; top:-30px; padding:10px; text-align:left; padding-top:0px; font-size:12px;}
+.youhuijuanclose{height:14px; line-height:14px; text-align:right; padding-right:0px; color:#FF6600;}

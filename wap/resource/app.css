@@ -1,0 +1,47 @@
+body, html {
+    background-color: #eee;
+}
+.index_nav_list li{
+	font-size:1.2rem
+	}
+	
+	.index_nav_list .am-slider-default{
+		margin:0
+	}
+
+.index_work{
+	background:#FFF
+}
+.index_worksite{
+	background:#FFF
+}	
+.index_work .am-titlebar{
+		margin-top:0
+}
+	
+	
+.index_work li{
+	display: block;
+	    border-bottom: 1px solid #cdd7de;
+}	
+.index_work .am-titlebar-default .am-titlebar-title{
+	color: #666;
+}
+
+.index_worksite .am-titlebar{
+		margin-top:0
+}
+	
+.index_worksite .am-titlebar-default .am-titlebar-title{
+	color: #666;
+}
+.index_resume .am-titlebar{
+		margin-top:0
+}
+.index_resume {
+	background:#FFF
+}
+
+.index_resume .am-titlebar-default .am-titlebar-title{
+	color: #666;
+}

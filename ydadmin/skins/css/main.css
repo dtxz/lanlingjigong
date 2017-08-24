@@ -1,0 +1,175 @@
+body,td,th {
+	font-family: 宋体;
+	font-size: 12px;
+}
+body {
+	background-color: #fff;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	background:url(../images/listtopbg.png); background-repeat:repeat-x;
+	color:#333;
+	padding-bottom:40px;
+}
+table td{color:#333;}
+a:link {
+	color: #135294;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #135294;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #135294;
+}
+.tdline{border-bottom:1px solid #ddd; margin-bottom:10px;}
+.tdline td{ color:#337abb;}
+.td_title {
+	line-height: 20px;
+	font-weight: bold;
+	color: #135294;
+	background-color: #FFFFFF;
+	text-align: left;
+	height: 25px;
+	padding-left:10px;
+}
+.td_content {
+	line-height: 18px;
+	color: #000;/*135294*/
+/*	background-color:#FFF;*/
+	height: 24px;
+	text-align: left;
+	padding:5px;
+	padding-left:15px;
+	padding-right:15px;
+	
+
+}
+.td_title2 {
+	line-height: 18px;
+	color: #135294;
+	background-color: #F0F5FB;
+	height: 24px;
+	text-align: left;
+	padding-left:10px;
+	border-bottom:1px solid #eee;
+}
+input[type=text]{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D8ED;
+	/*border-radius: 5px;*/ 
+	padding-left:10px; 
+	padding-right:10px;
+	height:24px;
+	line-height:24px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	
+}
+
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0; width:16px; height:16px; border:1px solid #ddd; color:#666666;}
+textarea{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D8ED;
+	/*border-radius: 5px; */
+	padding-left:10px; 
+	padding-right:10px;
+	padding-bottom:4px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	
+}
+
+.input_1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D8ED;
+	/*border-radius: 5px;*/ 
+	padding-left:10px; padding-right:10px;
+	padding-bottom:4px;
+	height:24px;
+	line-height:24px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+input.txtinput {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D8ED;
+	height:24px;
+	line-height:24px;
+	/*border-radius: 5px;*/
+	padding-left:10px; padding-right:10px;
+	padding-bottom:4px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+}
+select{ width:120px;color: #999;border: 1px solid #C4D8ED;height:28px;line-height:28px;/*border-radius: 5px;*/padding-left:10px; padding-right:10px;box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);}
+img{ border:0px;}
+checkbox{ border:0px;}
+input.button{ background-color:#6699CC; color:#fff; border:0px;padding-left:14px; padding-right:14px;	height:28px;line-height:28px;}
+
+.textarea{
+	width:550px; 
+	height:250px;	
+	/*border-radius: 2px;*/ 
+	padding-left:10px; 
+	padding-right:10px;
+	padding-bottom:2px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+}
+/*---------分页样式---------*/
+.page {	text-align: center; 	width:98%;	background-position: center center;	vertical-align: middle;	margin-top: 10px;	margin-right: auto;	margin-bottom: auto;	margin-left: auto;}
+/*分页每格所占宽度*/
+.page_h {	width:97%;	text-align: center;	padding: 0px; 	float: right; height:28px; }
+.page_h li{	float: left;	width: auto;	padding-top: 2px;	padding-right: 5px;	padding-bottom: 2px;	padding-left: 5px;	text-align: right;	font-size: 13px;height:28px;margin: 5px;border-bottom:10px;}
+.page_h li a:link,a:visited{ color:194286; text-decoration:none;}
+
+.graynolink{ color:#858585;}
+ 
+ 
+
+
+
+/*tablestyle*/
+.lrbtline {
+	BORDER: #eee 1px solid; border-left:#eee 1px solid;   BACKGROUND: #FFFFFF;padding:0px;
+}
+
+.lrbtlineHead{ font-size:12px; font-weight:bold; color:#FFFFFF; background-color:#5d9ed9; padding:5px; line-height:30px;}
+.lrbtlineHead td{ line-height:30px; padding-left:10px;}
+.onrow{ background-color:#e1eaf4; cursor:pointer; padding:5px;}
+.outrow{ background-color:#FFFFFF; padding:5px;}
+.onrow td{ clear:both;line-height:30px; border-bottom:1px solid #eee;}
+.outrow td{ line-height:30px; border-bottom:1px solid #eee; border-right:1px solid #eee;}
+
+.outrow2{ background-color:#FFFFFF; padding:3px;}
+.outrow2 td{ line-height:24px; border-bottom:1px solid #eee;}
+
+#NavTitle{ color:#000000;}
+.tdHeader{ }
+
+.btn_over{ font-size:12px; font-weight:bold; color:#6699CC; background-color:#c4d8ed; padding-left:5px; cursor:hand;}
+.btn_on{ font-size:12px; font-weight:bold; color:#fff; background-color:#6699CC; padding-left:5px; cursor:hand;}
+
+/****************/
+.seltype{background-color:#5d9ed9; color:#fff; /*border-top-left-radius:5px;border-top-right-radius:5px; */cursor:default; font-weight:bold;border:1px solid #5d9ed9; border-left:0px;border-bottom:0px;}
+.noseltype{background-color:#ddd; color:#333;/* border-top-left-radius:5px;border-top-right-radius:5px;*/border:1px solid #ccc; border-bottom:0px; cursor:pointer;}
+
+/*del btn*/
+.btn_del{margin:0px;padding:0 2px;height:18px;line-height:14px;}
